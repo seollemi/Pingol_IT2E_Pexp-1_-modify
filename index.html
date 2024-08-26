@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valheim</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS and jQuery (required for the carousel) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Cinzel', serif;
+            color: #ddd;
+            line-height: 1.6;
+            background-color: #2f2f2f;
+            background-image: url('https://www.transparenttextures.com/patterns/brushed-alum.png');
+        }
+
+        header {
+            background-color: #4a4a4a;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .container {
+            width: 85%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 6rem 2rem;
+            background: url('https://source.unsplash.com/1600x900/?viking,nordic') no-repeat center center/cover;
+            color: #fff;
+            position: relative;
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            margin: 0;
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            margin: 1.5rem 0;
+        }
+
+        .cta-button {
+            background-color: #b7410e;
+            color: #fff;
+            padding: 0.75rem 2rem;
+            border: none;
+            border-radius: 0.5rem;
+            font-size: 1.1rem;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #8b4513;
+        }
+
+        .product-highlight {
+            background: #3e3e3e;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .product-highlight h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .product-highlight p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        .product-highlight .cta-button {
+            background-color: #556b2f;
+            border-radius: 0.5rem;
+        }
+
+        .product-highlight .cta-button:hover {
+            background-color: #6b8e23;
+        }
+
+        footer {
+            background-color: #4a4a4a;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer .social-media {
+            margin: 1rem 0;
+        }
+
+        footer .social-media a {
+            color: #fff;
+            margin: 0 0.75rem;
+            text-decoration: none;
+            font-size: 2rem;
+            transition: color 0.3s ease;
+        }
+
+        footer .social-media a:hover {
+            color: #b7410e;
+        }
+
+        
+    </style>
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Valheim</h1>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Valheim</h1>
+            <p>Explore the beautiful world of valheim, Play now with your friends or solo fighting enemies and surviving the purgatory to reach valhalla.</p>
+            <img src="./valheim.jpg" style="width: 50%;" alt="">
+        </div>
+    </div>
+
+    <div class="product-highlight">
+        <div class="container">
+            <h2>About us</h2>
+            <p>Valheim is a survival game developed by talented folks at Iron Gate Studio, a small Swedish game development team. </p>
+            <a href="page2.html" class="cta-button">Read more</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="social-media">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2024 Irongate studios. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
